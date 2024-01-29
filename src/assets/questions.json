@@ -1,0 +1,244 @@
+{
+    "questions" : [
+        {
+            "id" : 1,
+            "info" : {
+                "question" : "print(“Hello world”) ใน Python จะแสดงผลลัพธ์อะไรออกมา",
+                "bullets" : 1,
+                "nCorrect" : 1,
+                "nIncorrect" : 7,
+                "points" : 1
+            },
+            "correctBucket" : {
+                "nCorrectBucket" : 1,
+                "correctBucketList" : [
+                    "Hello world"
+                ]
+            },
+            "incorrectBucket" : {
+                "nIncorrectBucket" : 18,
+                "incorrectBucketList" : [
+                    "Hi world",
+                    "Bye world",
+                    "Goodbye world",
+                    "Yo world",
+                    "Hello",
+                    "World",
+                    "‘Hello World’",
+                    "CE World",
+                    "DE World",
+                    "HelloWorld",
+                    "helloworld",
+                    "HELLO WORLD",
+                    "hello world",
+                    "Hello  world",
+                    "Hello World",
+                    "print(“Hello world”)",
+                    "“Hello world”",
+                    "Hello worlld "
+                ]
+            }
+        },
+        {
+            "id" : 2,
+            "info" : {
+                "question" : " [(2+4)/3]%2==0 ใน Python ผลของการดำเนินการนี้คืออะไร",
+                "bullets" : 1,
+                "nCorrect" : 1,
+                "nIncorrect" : 7,
+                "points" : 2
+            },
+            "correctBucket" : {
+                "nCorrectBucket" : 1,
+                "correctBucketList" : [
+                    "True"
+                ]
+            },
+            "incorrectBucket" : {
+                "nIncorrectBucket" : 15,
+                "incorrectBucketList" : [
+                    "False",
+                    "true",
+                    "0",
+                    "Zero",
+                    "One",
+                    "NaN",
+                    "Error",
+                    "คอมระเบิด",
+                    "จอฟ้า",
+                    "10",
+                    "-1",
+                    "99",
+                    "Syntax Error",
+                    "Index out of bound",
+                    "Value Error"
+                ]
+            }
+        },
+        {
+            "id" : 3,
+            "info" : {
+                "question" : "เอก CE / DE มีชื่อเต็มว่าอะไร",
+                "bullets" : 3,
+                "nCorrect" : 2,
+                "nIncorrect" : 6,
+                "points" : 2
+            },
+            "correctBucket" : {
+                "nCorrectBucket" : 2,
+                "correctBucketList" : [
+                    "Computer Engineering",
+                    "Digital Engineering"
+                ]
+            },
+            "incorrectBucket" : {
+                "nIncorrectBucket" : 11,
+                "incorrectBucketList" : [
+                    "Calculator Engineering",
+                    "Deez Nutz Engineering",
+                    "CQK Engineering",
+                    "Dragon Balls Z Engineering",
+                    "Cat Engineering",
+                    "Dog Engineering",
+                    "Cow Engineering",
+                    "Dialog Engineering",
+                    "Chicken Engineering",
+                    "Information Technology",
+                    "Artificial Intelligence Engineering"
+                ]
+            }
+        },
+        {
+            "id" : 4,
+            "info" : {
+                "question" : "ข้อใดบ้างที่จัดเป็นภาษา Programming",
+                "bullets" : 5,
+                "nCorrect" : 4,
+                "nIncorrect" : 4,
+                "points" : 1
+            },
+            "correctBucket" : {
+                "nCorrectBucket" : 12,
+                "correctBucketList" : [
+                    "C",
+                    "Python",
+                    "Ruby",
+                    "Java",
+                    "C#",
+                    "Rust",
+                    "C++",
+                    "TypeScript",
+                    "Swift",
+                    "Lua",
+                    "Frontal",
+                    "Assembly"
+                ]
+            },
+            "incorrectBucket" : {
+                "nIncorrectBucket" : 13,
+                "incorrectBucketList" : [
+                    "Hyena",
+                    "D#",
+                    "HTML",
+                    "Armadillo",
+                    "Cython",
+                    "Plantera",
+                    "Pandas",
+                    "TensorFlow",
+                    "Vue",
+                    "Pytorch",
+                    "CSS",
+                    "Linux"
+                ]
+            }
+        },
+        {
+            "id" : 5,
+            "info" : {
+                "question" : "ข้อใดบ้างที่จัดเป็น Data Structure",
+                "bullets" : 5,
+                "nCorrect" : 4,
+                "nIncorrect" : 4,
+                "points" : 1
+            },
+            "correctBucket" : {
+                "nCorrectBucket" : 12,
+                "correctBucketList" : [
+                    "Array",
+                    "Linked-List",
+                    "Stack",
+                    "Queue",
+                    "Tree",
+                    "Binary Tree",
+                    "Heap",
+                    "Hash Table",
+                    "Graph",
+                    "Trie",
+                    "Priority Queue",
+                    "Deque"
+                ]
+            },
+            "incorrectBucket" : {
+                "nIncorrectBucket" : 12,
+                "incorrectBucketList" : [
+                    "Binary Search",
+                    "Huffman Coding",
+                    "Bubble Sort",
+                    "Analog Tree",
+                    "Linked-Set",
+                    "Piled",
+                    "Fast Fourier Transform",
+                    "Longest Common Substring",
+                    "Linked-Array",
+                    "Graph Table",
+                    "Jump",
+                    "Linear Search"
+                ]
+            }
+        },
+        {
+            "id" : 6,
+            "info" : {
+                "question" : "ข้อใดบ้างที่จัดเป็นสายงานที่เกี่ยวข้องกับวิชาเอก CE / DE",
+                "bullets" : 5,
+                "nCorrect" : 4,
+                "nIncorrect" : 4,
+                "points" : 1
+            },
+            "correctBucket" : {
+                "nCorrectBucket" : 1,
+                "correctBucketList" : [
+                    "Software Engineer",
+                    "Software Development",
+                    "Data Science",
+                    "Cyber Security",
+                    "System Architecture",
+                    "Fronten",
+                    "Backend",
+                    "Full-Stack",
+                    "Sys-Admin",
+                    "AI Researcher",
+                    "IT Support",
+                    "Game Developer"
+                ]
+            },
+            "incorrectBucket" : {
+                "nIncorrectBucket" : 18,
+                "incorrectBucketList" : [
+                    "Lawyer",
+                    "Doctor",
+                    "Teacher",
+                    "Artist",
+                    "Designer",
+                    "Chef",
+                    "Journalist",
+                    "Architect",
+                    "Translator",
+                    "Recruiter",
+                    "Ice Cream Vendor",
+                    "Librarian"
+                ]
+            }
+        }
+    ]
+}
