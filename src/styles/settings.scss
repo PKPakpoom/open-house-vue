@@ -8,3 +8,7 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
+
+@use 'vuetify/settings' with (
+  $progress-linear-transition: 0s standard-easing,
+);
