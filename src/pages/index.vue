@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <v-container class= "d-flex justify-center align-center">
+    <v-container class="d-flex justify-center align-center">
       <v-card class="auto-height text-lg-center" color="indigo">
         <v-card-title>Click START to begin</v-card-title>
         <v-card-actions class="d-flex justify-center align-center">
@@ -12,9 +12,11 @@
 </template>
 
 <script lang="ts" setup>
-  import router from '@/router';
+import router from '@/router';
 
-  const goto_game = () => {
-    router.push('/game');
-  }
+const goto_game = () => {
+  router.push('/game');
+}
+
+// kittipongs@g.swu.ac.th
 </script>

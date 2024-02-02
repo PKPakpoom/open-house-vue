@@ -1,23 +1,13 @@
 {
   "questions": [
     {
-      "id": 1,
-      "info": {
-        "question": "print(“Hello World”) ใน Python จะแสดงผลลัพธ์อะไรออกมา",
-        "bullets": 1,
-        "nCorrect": 1,
-        "nIncorrect": 7,
-        "points": 1
-      },
-      "correctBucket": {
-        "nCorrectBucket": 1,
-        "correctBucketList": [
+      "question": "print(“Hello World”) ใน Python จะแสดงผลลัพธ์อะไรออกมา",
+      "nCorrect": 1,
+      "nIncorrect": 7,
+      "Answer": [
           "Hello World"
-        ]
-      },
-      "incorrectBucket": {
-        "nIncorrectBucket": 18,
-        "incorrectBucketList": [
+      ],
+      "WrongAnswer": [
           "Hi world",
           "Bye world",
           "Goodbye world",
@@ -36,64 +26,17 @@
           "print(“Hello world”)",
           "“Hello world”",
           "Hello worlld "
-        ]
-      }
+      ]
     },
     {
-      "id": 2,
-      "info": {
-        "question": " [(2+4)/3]%2==0 ใน Python ผลของการดำเนินการนี้คืออะไร",
-        "bullets": 1,
-        "nCorrect": 1,
-        "nIncorrect": 7,
-        "points": 2
-      },
-      "correctBucket": {
-        "nCorrectBucket": 1,
-        "correctBucketList": [
-          "True"
-        ]
-      },
-      "incorrectBucket": {
-        "nIncorrectBucket": 15,
-        "incorrectBucketList": [
-          "False",
-          "true",
-          "0",
-          "Zero",
-          "One",
-          "NaN",
-          "Error",
-          "คอมระเบิด",
-          "จอฟ้า",
-          "10",
-          "-1",
-          "99",
-          "Syntax Error",
-          "Index out of bound",
-          "Value Error"
-        ]
-      }
-    },
-    {
-      "id": 3,
-      "info": {
-        "question": "เอก CE / DE มีชื่อเต็มว่าอะไร",
-        "bullets": 3,
-        "nCorrect": 2,
-        "nIncorrect": 6,
-        "points": 2
-      },
-      "correctBucket": {
-        "nCorrectBucket": 2,
-        "correctBucketList": [
+      "question": "เอก CE / DE มีชื่อเต็มว่าอะไร",
+      "nCorrect": 2,
+      "nIncorrect": 6,
+      "Answer": [
           "Computer Engineering",
           "Digital Engineering"
-        ]
-      },
-      "incorrectBucket": {
-        "nIncorrectBucket": 11,
-        "incorrectBucketList": [
+      ],
+      "WrongAnswer": [
           "Calculator Engineering",
           "Deez Nutz Engineering",
           "CQK Engineering",
@@ -105,21 +48,13 @@
           "Chicken Engineering",
           "Information Technology",
           "AI Engineering"
-        ]
-      }
+      ]
     },
     {
-      "id": 4,
-      "info": {
-        "question": "ข้อใดบ้างที่จัดเป็นภาษา Programming",
-        "bullets": 5,
-        "nCorrect": 4,
-        "nIncorrect": 4,
-        "points": 1
-      },
-      "correctBucket": {
-        "nCorrectBucket": 12,
-        "correctBucketList": [
+      "question": "ข้อใดบ้างที่จัดเป็นภาษา Programming",
+      "nCorrect": 4,
+      "nIncorrect": 4,
+      "Answer": [
           "C",
           "Python",
           "Ruby",
@@ -132,11 +67,8 @@
           "Lua",
           "Frontal",
           "Assembly"
-        ]
-      },
-      "incorrectBucket": {
-        "nIncorrectBucket": 13,
-        "incorrectBucketList": [
+      ],
+      "WrongAnswer": [
           "Hyena",
           "D#",
           "HTML",
@@ -149,21 +81,13 @@
           "Pytorch",
           "CSS",
           "Linux"
-        ]
-      }
+      ]
     },
     {
-      "id": 5,
-      "info": {
-        "question": "ข้อใดบ้างที่จัดเป็น Data Structure",
-        "bullets": 5,
-        "nCorrect": 4,
-        "nIncorrect": 4,
-        "points": 1
-      },
-      "correctBucket": {
-        "nCorrectBucket": 12,
-        "correctBucketList": [
+      "question": "ข้อใดบ้างที่จัดเป็น Data Structure",
+      "nCorrect": 4,
+      "nIncorrect": 4,
+      "Answer": [
           "Array",
           "Linked-List",
           "Stack",
@@ -176,11 +100,8 @@
           "Trie",
           "Priority Queue",
           "Deque"
-        ]
-      },
-      "incorrectBucket": {
-        "nIncorrectBucket": 12,
-        "incorrectBucketList": [
+      ],
+      "WrongAnswer": [
           "Binary Search",
           "Huffman Coding",
           "Bubble Sort",
@@ -193,21 +114,13 @@
           "Graph Table",
           "Jump",
           "Linear Search"
-        ]
-      }
+      ]
     },
     {
-      "id": 6,
-      "info": {
-        "question": "ข้อใดบ้างที่จัดเป็นสายงานที่เกี่ยวข้องกับวิชาเอก CE / DE",
-        "bullets": 5,
-        "nCorrect": 4,
-        "nIncorrect": 4,
-        "points": 1
-      },
-      "correctBucket": {
-        "nCorrectBucket": 1,
-        "correctBucketList": [
+      "question": "ข้อใดบ้างที่จัดเป็นสายงานที่เกี่ยวข้องกับวิชาเอก CE / DE",
+      "nCorrect": 4,
+      "nIncorrect": 4,
+      "Answer": [
           "Software Engineer",
           "Software Development",
           "Data Science",
@@ -220,11 +133,8 @@
           "AI Researcher",
           "IT Support",
           "Game Developer"
-        ]
-      },
-      "incorrectBucket": {
-        "nIncorrectBucket": 18,
-        "incorrectBucketList": [
+      ],
+      "WrongAnswer": [
           "Lawyer",
           "Doctor",
           "Teacher",
@@ -237,8 +147,26 @@
           "Recruiter",
           "Ice Cream Vendor",
           "Librarian"
-        ]
-      }
+      ]
+    },
+    {
+      "question": "ในภาษา C, pointer คืออะไร",
+      "nCorrect": 1,
+      "nIncorrect": 7,
+      "Answer": [
+          "ตัวแปรที่เก็บค่าของตำแหน่งของตัวแปรอื่น"
+      ],
+      "WrongAnswer": [
+        "ตัวแปรที่เก็บค่าตัวเลข",
+        "ตัวแปรที่เก็บค่าข้อความ",
+        "ตัวแปรที่เก็บค่าตัวอักษร",
+        "ตัวแปรที่เก็บค่าตัวเลขที่เป็นทศนิยม",
+        "ตัวแปรที่เก็บค่าตัวเลขที่เป็นจำนวนเต็ม",
+        "ตัวแปรที่เก็บค่าตัวเลขที่เป็นจำนวนเต็มบวก",
+        "ตัวแปรที่เก็บค่าตัวเลขที่เป็นจำนวนเต็มลบ",
+        "ตัวแปรที่เก็บค่าตัวเลขที่เป็นจำนวนเต็มบวกและลบ"
+        
+      ]
     }
   ]
 }

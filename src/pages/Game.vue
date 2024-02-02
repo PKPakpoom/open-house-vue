@@ -17,7 +17,7 @@
       {{ `${usable_questions[question_index].nCorrect} correct answers` }}
     </v-card-title>
   </v-sheet>
-  <v-container fluid>
+  <v-container fluid >
     <v-row class="rows" align="center">
       <v-col v-for="(question, i) in usable_questions[question_index].questions" :key="i" cols="12" md="3">
         <v-card
@@ -37,10 +37,16 @@
       </v-col>
     </v-row>
   </v-container>
-  <div class="d-flex align-center justify-center pt-5">
-    <v-btn color="indigo" @click="showAnswers">Show Answers</v-btn>
-  </div>
-  <v-pagination v-model="index_show" :length="usable_questions.length" rounded="circle"></v-pagination>
+  <v-pagination
+  v-model="index_show"
+  :length="usable_questions.length"
+  rounded="circle"
+  class="fixed-bottom mb-5"
+  >
+</v-pagination>
+<v-container class="d-flex align-center justify-center pt-5">
+  <v-btn color="indigo" @click="showAnswers">Show Answers</v-btn>
+</v-container>
 </template>
 
 <script setup>
@@ -60,22 +66,21 @@ let usable_questions = [];
 
 for (let i = 0; i < questions.length; i++) {
   usable_questions[i] = {
-    title: questions[i].info.question,
+    title: questions[i].question,
     questions: [],
     answers: [],
-    bullets: questions[i].info.bullets,
-    nCorrect: questions[i].info.nCorrect,
+    nCorrect: questions[i].nCorrect,
   };
-  const nCorrect = questions[i].info.nCorrect;
-  const nIncorrect = questions[i].info.nIncorrect;
+  const nCorrect = questions[i].nCorrect;
+  const nIncorrect = questions[i].nIncorrect;
 
-  let tempCorrect = shuffle(questions[i].correctBucket.correctBucketList);
+  let tempCorrect = shuffle(questions[i].Answer);
   for (let j = 0; j < nCorrect; j++) {
     usable_questions[i].questions.push(tempCorrect[j]);
     usable_questions[i].answers.push(tempCorrect[j]);
   }
 
-  let tempIncorrect = shuffle(questions[i].incorrectBucket.incorrectBucketList);
+  let tempIncorrect = shuffle(questions[i].WrongAnswer);
   for (let j = 0; j < nIncorrect; j++) {
     usable_questions[i].questions.push(tempIncorrect[j]);
   }
